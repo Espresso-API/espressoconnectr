@@ -1,0 +1,30 @@
+Package: Espresso
+Title: Connect to Espresso API
+Version: 1.0.0.3
+Authors@R: 
+    person("First", "Last", , "yourid@email.com")
+Description: R wrapper for Espresso API.
+    Espresso API is a collection of HTTPS-REST APIs that provide integration with our in-house trading
+    platform with which you can build your own customized trading applications. You can use the endpoints
+    to place fresh orders, modify and cancel existing orders, get real time feed and also get net positions,
+    holdings, and funds related information. All requests and responses should be in JSON format. The status
+    code used in response are standard HTTP status codes.
+License: 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+R-Version:
+    R version 4.2.3
+Imports:
+    httr,
+    methods,
+    jsonlite,
+    glue,
+    base64,
+    reticulate,
+    websocket,
+    later
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
